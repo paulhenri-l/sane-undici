@@ -147,7 +147,7 @@ export type ReferrerPolicy =
   | 'strict-origin-when-cross-origin'
   | 'unsafe-url'
 
-export type RequestMode = 'cors' | 'navigate' | 'no-cors' | 'same-origin'
+export type RequestMode = 'cors' | 'navigate' | 'no-cors' | 'no-sec-fetch' | 'same-origin'
 
 export type RequestRedirect = 'error' | 'follow' | 'manual'
 
